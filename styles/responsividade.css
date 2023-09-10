@@ -1,0 +1,57 @@
+@media screen and (max-width:600px){
+ #app header{
+    display: flex;
+    flex-direction:column;
+      
+  }
+
+  #app ul{ 
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+  
+  }
+
+  #app ul a{
+    font-size: 28px;
+  }
+
+.navigation_social{
+    margin-right: auto;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+      
+  }
+
+  #app main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#app main img{
+  width: 260px;
+  height: 240px;
+}
+
+.main_info > img {
+margin-left: 90px;
+}
+
+#app main button{
+  width: 190px; 
+  margin-bottom: 30px;
+}
+
+#app main a{
+  width: 190px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+ 
+}
+
+#app main p{
+  margin: 40px 40px 40px 40px;
+}
+}
